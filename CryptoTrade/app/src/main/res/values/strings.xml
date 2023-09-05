@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CryptoTrade</string>
+    <string name="log_in">Log In</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="click_to_log_in">Click to log in</string>
+    <string name="log_out">Log out</string>
+    <string name="last_name">Last name</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="user_name">User name</string>
+    <string name="loading_description">Modern crypto tracker app featuring real-time coin prices</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="hello_there_welcome_back">Hello there, welcome back</string>
+    <string name="blockchain_image">Blockchain image</string>
+    <string name="search_currencies">Search currencies...</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_to_start">Sign up to start</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exchange">Exchange</string>
+    <string name="update_profile">Update profile</string>
+    <string name="coin_name">Coin name</string>
+    <string name="coin_symbol">Coin symbol</string>
+    <string name="coin_description">Coin description</string>
+    <string name="hashing_algorithm">Hashing algorithm</string>
+    <string name="trending">Trending (24h)</string>
+    <string name="trending2">Trending</string>
+    <string name="choose_a_photo">Choose a photo!</string>
+
+    <string-array name="currencies1">
+        <item>BITCOIN</item>
+        <item>ETHEREUM</item>
+        <item>TETHER</item>
+        <item>RIPPLE</item>
+    </string-array>
+    <string-array name="currencies2">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string-array name="list_size">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781945913823",
+    "project_id": "it44g2020-mit",
+    "storage_bucket": "it44g2020-mit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781945913823:android:cf88537551c597872d446a",
+        "android_client_info": {
+          "package_name": "com.example.cryptotrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781945913823-8d9qo41vkvmcrv7b3tldm81iv3jnihjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhBDznEJBtA2hDV-afGPkDpaXUo8ii-Kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781945913823-8d9qo41vkvmcrv7b3tldm81iv3jnihjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    style="?attr/materialCardViewElevatedStyle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    cardCornerRadius="3dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="#2F243A"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlcoin">
+
+        <TextView
+            android:id="@+id/idTVsymbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_toLeftOf="@+id/idTVvalue"
+            android:padding="3dp"
+            android:text="Symbol"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTVcoinname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVsymbol"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:padding="3dp"
+            android:text="Name"
+            android:textColor="#BEBBBB" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTVvalue"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Value"
+            android:textColor="#0ff507"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="2dp"
+            android:padding="3dp"
+            />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

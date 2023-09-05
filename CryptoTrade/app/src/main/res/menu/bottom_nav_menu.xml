@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/bottom_nav_profile_icon"
+        app:cnb_iconColor="@color/white"/>
+    <item
+        android:id="@+id/bottom_nav_trending"
+        android:title="@string/trending2"
+        android:icon="@drawable/baseline_trending_up_24"
+        app:cnb_iconColor="@color/white"/>
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"
+        app:cnb_iconColor="@color/white"/>
+    <item
+        android:id="@+id/bottom_nav_trade"
+        android:title="@string/exchange"
+        android:icon="@drawable/baseline_currency_exchange_24"
+        app:cnb_iconColor="@color/white"/>
+</menu>
